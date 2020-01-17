@@ -57,7 +57,7 @@ class Plugin extends PluginBase
         $aliasLoader = AliasLoader::getInstance();
 
         // Get the packages to boot
-        $packages = Config::get($pluginNamespace . '::packages');
+        $packages = Config::get($pluginNamespace . '::config.packages');
 
         // Boot each package
         foreach ($packages as $name => $options) {
