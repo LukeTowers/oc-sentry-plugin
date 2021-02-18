@@ -12,6 +12,11 @@ use Illuminate\Foundation\AliasLoader;
 class Plugin extends PluginBase
 {
     /**
+     * Ensure plugin runs on command line too
+     */
+    public $elevated = true;
+    
+    /**
      * Returns information about this plugin.
      *
      * @return array
