@@ -1,3 +1,5 @@
+Use https://github.com/wintercms/wn-sentry-plugin instead. This package is abandoned.
+
 # About
 
 Integrates the [sentry-laravel](https://github.com/getsentry/sentry-laravel) package into October CMS.
